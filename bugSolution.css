@@ -1,0 +1,11 @@
+/* Correct usage of calc() */
+#myElement {
+  width: calc(100% - 10px);
+}
+
+/* Incorrect usage - missing unit */
+#anotherElement {
+  width: calc(100% - 10); /*This is incorrect*/
+}
+
+/*Solution: Always specify units with numerical values inside calc()*/
